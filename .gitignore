@@ -1,0 +1,33 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# SQLite database
+stories.db
+
+# Streamlit secrets
+.secrets.toml
+secrets.toml
+
+# Environment-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency lock files (if using pipenv or poetry, optional)
+Pipfile.lock
+poetry.lock
+
+# Temporary files
+*.log
+*.tmp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
